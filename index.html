@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <title>React rating component</title>
+    </head>
+    <body>
+        <div class="container">
+          <div class="col-md-9">
+            <h1>React rating component</h1>
+            <div id="rating"></div>
+          </div>
+        </div>
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="build/rater.js"></script>
+        <script>
+          $("#rating").rater({
+            email: 'email@email.com',
+            course: '',
+            lectureID: '13348',
+            successMessage: 'Muchas Gracias por enviarnos tu opinion',
+            zap: 'https://hooks.zapier.com/hooks/catch/305819/tcdasy/',
+            title: 'Puntua esta clase',
+            commentLabel: 'commentLabel'
+          });
+        </script>
+    </body>
+</html>

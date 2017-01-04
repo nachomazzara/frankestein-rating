@@ -1,0 +1,45 @@
+{
+  "author": "Ignacio Mazzara",
+  "name": "react-rating",
+  "description": "Rating react component",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "scripts": {
+    "build": "webpack-dev-server --progress --colors --port 8090",
+    "create": "webpack",
+    "prod": "webpack ./webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "rate": "^0.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-rater": "^0.3.5"
+  }
+}
